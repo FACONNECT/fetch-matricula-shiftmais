@@ -1,4 +1,5 @@
 function sendData(url, fetchOptions) {
+    console.log(fetchOptions);
     fetch(url, fetchOptions)
         .then(response => {
             if (!response.ok) {
